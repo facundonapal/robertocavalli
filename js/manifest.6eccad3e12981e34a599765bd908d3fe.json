@@ -1,0 +1,36 @@
+{
+  "icons": [
+    {
+      "src": "https://cdn-static.blackandwhite-ff.com/static/robertocavalli/build/app-manifest/icon_180x180.2ea2ca54f332e25930ce15ba4f068545.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-static.blackandwhite-ff.com/static/robertocavalli/build/app-manifest/icon_512x512.eac0ea011f119f514d3ee638730181f4.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-static.blackandwhite-ff.com/static/robertocavalli/build/app-manifest/icon_192x192.c0ca24d31e1972488ab4fb7aeb91729e.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-static.blackandwhite-ff.com/static/robertocavalli/build/app-manifest/icon_32x32.278c05c8f3bd6eab542cd9c8af390219.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-static.blackandwhite-ff.com/static/robertocavalli/build/app-manifest/icon_16x16.9cc84ba67eb30c0377dea2c73783176d.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "name": "Roberto Cavalli",
+  "short_name": "Roberto Cavalli",
+  "orientation": "landscape",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
