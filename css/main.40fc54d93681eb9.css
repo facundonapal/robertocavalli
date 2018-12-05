@@ -6527,11 +6527,10 @@ section ._2pp2C {
 
 ._2wfJ5 {
     position: absolute;
-    bottom: 5%;
+    bottom: 11%;
     z-index: 1;
     padding: 30px 4.16667vw 0;
     transform: translateY(50px);
-    opacity: 0;
     font-size: 73px;
     line-height: 1;
     transition-property: opacity,transform;
