@@ -1,0 +1,9 @@
+#_hiddensubmenu {
+	display: none;
+}
+
+/*._triggerbutton:hover ~ ._hiddensubmenu {
+	display: inline-block;
+	background: #fff;
+}
+*/
