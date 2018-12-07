@@ -1,9 +1,96 @@
+/*HOMEPAGE*/
+
 #_hiddensubmenu {
 	display: none;
 }
 
-/*._triggerbutton:hover ~ ._hiddensubmenu {
-	display: inline-block;
-	background: #fff;
+/*.LOOKBOOK JUST CAVALLI*/
+
+/*=========================
+    LOOKBOOK STYLES
+==========================*/
+* {
+	margin: 0;
+	padding: 0;
 }
-*/
+
+.wrapper-widgets {
+   width: 100%;
+   margin-top: 150px;
+}
+
+.tabss {
+    text-align: center !important;
+}
+
+.tabss input[type=radio] {
+    display:none;
+}
+
+.tabss label {
+    display: inline-grid;
+    width: 19%;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+    margin-bottom: 57px;
+    transition: border-bottom 1s ease;
+    border-bottom: 1px transparent solid;
+}
+
+
+.tabss [id^="tab"]:checked + label {
+    border-bottom: 1px solid #05301a;
+    border-bottom-width: thin; 
+}
+
+.tab-style {
+    color: #000;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+ #tab1:checked ~ #tab-content1,
+ #tab2:checked ~ #tab-content2,
+ #tab3:checked ~ #tab-content3,
+ #tab4:checked ~ #tab-content4,
+ #tab5:checked ~ #tab-content5 {
+    display: block;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+}
+
+.ps-load-more-container {
+	margin: 0 auto !important;
+	display: inline-block !important;
+}
+
+.ps-load-more-button {
+    min-width: 270px !important;
+    height: 50px !important;
+    min-height: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-self: flex-start !important;
+    align-items: cente !importantr;
+    align-content: center !important;
+    vertical-align: middle !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    line-height: 1.17 !important;
+    background-color: #000 !important;
+    letter-spacing: 2px !important;
+    margin: 24px 0;
+}
+
+.ps-load-more-button:hover {
+     color: #000 !important;
+    background: #dec7b6 !important;
+}
+
