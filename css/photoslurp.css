@@ -16,7 +16,7 @@
 
 .wrapper-widgets {
    width: 100%;
-   margin-top: 150px;
+   margin-top: 72px;
 }
 
 .tabss {
@@ -40,14 +40,17 @@
 
 
 .tabss [id^="tab"]:checked + label {
-    border-bottom: 1px solid #05301a;
+    border-bottom: 1px solid #dec7b6;
     border-bottom-width: thin; 
 }
 
 .tab-style {
-    color: #000;
-    font-weight: 700;
-    font-size: 17px;
+    color: #000 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    line-height: 1.17 !important;
+    letter-spacing: 2px !important;
 }
 
 
@@ -87,10 +90,11 @@
     background-color: #000 !important;
     letter-spacing: 2px !important;
     margin: 24px 0;
+    border: none !important;
 }
 
 .ps-load-more-button:hover {
-     color: #000 !important;
+    color: #000 !important;
     background: #dec7b6 !important;
 }
 
