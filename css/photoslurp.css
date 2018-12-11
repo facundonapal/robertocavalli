@@ -4,11 +4,9 @@
 	display: none;
 }
 
-/*.LOOKBOOK JUST CAVALLI*/
+/*LOOKBOOK JUST CAVALLI*/
 
-/*=========================
-    LOOKBOOK STYLES
-==========================*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -96,5 +94,16 @@
 .ps-load-more-button:hover {
     color: #000 !important;
     background: #dec7b6 !important;
+}
+
+
+/*=========================
+    PRODUCT STYLES
+==========================*/
+
+#cavalli-carousel-product {
+    text-align: center !important;
+    border-top: 1px solid #dfc8b7;
+    padding-top: 48px;
 }
 
